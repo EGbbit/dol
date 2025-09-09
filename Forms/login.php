@@ -1,7 +1,7 @@
-<php?
+<?php
 require_once 'classAutoLoad.php';
 
-$layoutsInstance->heading();
+$layoutsInstance->heading($conf);
 $layoutsInstance->welcome();
 $formsInstance->login();
-$layoutsInstance->footer();
+$layoutsInstance->footer($conf);
